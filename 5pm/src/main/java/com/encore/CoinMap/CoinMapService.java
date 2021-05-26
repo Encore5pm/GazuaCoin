@@ -1,10 +1,10 @@
-package com.encore.worldchart;
+package com.encore.CoinMap;
 
 import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpSession;
 
-public interface WorldService {
+public interface CoinMapService {
 	
 }

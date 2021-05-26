@@ -1,4 +1,4 @@
-package com.encore.worldchart;
+package com.encore.CoinMap;
 
 import java.util.HashMap;
 import java.util.List;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class WorldCon {
+public class CoinMapCon {
 	
 	
 

@@ -6,23 +6,6 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
-
-/* @use postcss-preset-env;
- */
-/* ---------- FONTAWESOME ---------- */
-/* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
-/* ---------- http://weloveiconfonts.com/ ---------- */
-
-/* @import url(https://weloveiconfonts.com/api/?family=fontawesome); */
-
-/* ---------- ERIC MEYER'S RESET CSS ---------- */
-/* ---------- https://meyerweb.com/eric/tools/css/reset/ ---------- */
-
-/* @import url(https://meyerweb.com/eric/tools/css/reset/reset.css); */
-
-/* ---------- FONTAWESOME ---------- */
-
-/* ---------- GENERAL ---------- */
 body {
 	background: #f4f4f4;
 	color: #5a5656;
@@ -206,8 +189,6 @@ function makeAccount(){
 
 				</fieldset>
 			</form>
-			
-			
 		</div>
 	</div>
 
