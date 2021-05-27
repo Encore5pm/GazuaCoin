@@ -1,4 +1,4 @@
-package com.encore.CoinMap;
+package com.encore.coinmap;
 
 import lombok.Data;
 

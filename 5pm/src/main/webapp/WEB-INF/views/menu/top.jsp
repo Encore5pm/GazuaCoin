@@ -105,9 +105,9 @@ a {
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link js-scroll-trigger"
-					href="#worldchart">World Chart</a></li>
+					href="#worldchart">Coin Map</a></li>
 				<li class="nav-item"><a class="nav-link js-scroll-trigger"
-					href="#virtualcoinchart">Virtual Coin Chart</a></li>
+					href="#virtualcoinchart">Coin Chart</a></li>
 				<li class="nav-item"><a class="nav-link js-scroll-trigger"
 					href="#article">Search Article</a></li>
 			</ul>
@@ -116,13 +116,15 @@ a {
 			<nav>
 				<ul class="nav justify-content-end">
 					<li class="nav-item"><a class="nav-link"
-						href="${pageContext.request.contextPath }/member/login">Sign in</a></li>
+						href="${pageContext.request.contextPath }/member/login">Sign
+							in</a></li>
 				</ul>
 			</nav>
 			<nav>
 				<ul class="nav justify-content-end">
 					<li class="nav-item"><a class="nav-link"
-						href="${pageContext.request.contextPath }/member/makeAccount">Join Us</a></li>
+						href="${pageContext.request.contextPath }/member/makeAccount">Join
+							Us</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -130,16 +132,52 @@ a {
 	<div id="wrapper">
 		<div id="sidebar-wrapper">
 			<br> <br> <br> <br> <br> <br> <br>
-			<br> <br>
 			<div>
-			<ul class="sidebar-nav nav navbar-inverse">
-				<li><a href="#" style="color: white;">Link 1</a></li>
-				<li><a href="#" style="color: white;">Link 2</a></li>
-			</ul>
+				<div class="sidebar-nav nav navbar-inverse"
+					style="padding-left: 20px; padding-right: 20px;">
+					<!-- 순위 테이블 동적으로 생성 및 수정  -->
+					<table class="table table-dark">
+						<thead>
+							<tr>
+								<th>순위</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Doe</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Moe</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Dooley</td>
+							</tr>
+						</tbody>
+					</table>
+					<br> <br> <br><br> <br> <br><br> <br> <br>
+					<!-- 채팅 (임의 이미지) -->
+					<div>
+					
+						<h6 style="color: white;">채팅</h6>
+						<textarea class="form-control" rows="20" id="comment"></textarea>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">입력</span>
+							</div>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+
+
+				</div>
 			</div>
 		</div>
 	</div>
-	
+
 
 
 

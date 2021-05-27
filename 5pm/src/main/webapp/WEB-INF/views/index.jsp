@@ -9,19 +9,27 @@
 <body style="margin-right: 250px;">
 		<!-- 코인 맵 -->
 		<section class="about-section text-center" id="worldchart">
-			 <h2>Coin Map</h2>
-			 <a href=""></a>
-             <img src="/assets/bg-masthead.jpg" class="mx-auto d-block" style="width:50%"> 
+			 <h2 style="color: white;">Coin Map</h2>
+			 <a href="">
+			 	<img src="/assets/coinmap.png" class="mx-auto d-block" style="width:50%">
+			 </a>
+              
 		</section>
 		<!-- 코인 차트-->
 			<section class="about-section text-center" id="virtualcoinchart">
-			 <h2>Virtual Coin Chart</h2>
-             <img src="/assets/bg-masthead.jpg" class="mx-auto d-block" style="width:50%"> 
+			 <h2 style="color: white;">Coin Chart</h2>
+			 <a href="">
+			 	<img src="/assets/coinchart.jpg" class="mx-auto d-block" style="width:50%">
+			 </a>
+              
 		</section>
 <!-- 		뉴스 -->
 		<section class="about-section text-center" id="article">
-			 <h2>Article</h2>
-             <img src="/assets/bg-masthead.jpg" class="mx-auto d-block" style="width:50%"> 
+			 <h2 style="color: white;">Article</h2>
+			 <a href="">
+			 	<img src="/assets/news.jpg" class="mx-auto d-block" style="width:50%">
+			 </a>
+              
 		</section>
 		<!-- Contact-->
 

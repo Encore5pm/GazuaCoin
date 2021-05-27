@@ -1,4 +1,4 @@
-package com.encore.CoinMap;
+package com.encore.coinmap;
 
 import java.util.HashMap;
 import java.util.List;

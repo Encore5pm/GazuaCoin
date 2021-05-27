@@ -16,9 +16,6 @@
 <!-- Respond.js 으로 IE8 에서 반응형 기능을 활성화하세요 (https://github.com/scottjehl/Respond) -->
 <script	src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
-
-
-
 </head>
 <body style="background: #5A5656;">
 	<br>
@@ -68,47 +65,6 @@
 
 
 		<form class="form-horizontal" role="form" method="post"	action="javascript:alert( 'success!' );">
-			<div class="form-group">
-				<label for="provision" class="col-lg-2 control-label">회원가입약관</label>
-				<div class="col-lg-10" id="provision">
-					<textarea class="form-control" rows="8" style="resize: none">약관동의
-블라블라블라블라블라블라블라블라블라블라블라블라
-블라블라블라블라블라블라블라블라블라블라블라블라
-블라블라블라블라블라블라블라블라블라블라블라블라.................
-                        </textarea>
-					<div class="radio">
-						<label> <input type="radio" id="provisionYn"
-							name="provisionYn" value="Y" autofocus="autofocus" checked>
-							동의합니다.
-						</label>
-					</div>
-					<div class="radio">
-						<label> <input type="radio" id="provisionYn"
-							name="provisionYn" value="N"> 동의하지 않습니다.
-						</label>
-					</div>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="memberInfo" class="col-lg-2 control-label">개인정보취급방침</label>
-				<div class="col-lg-10" id="memberInfo">
-					<textarea class="form-control" rows="8" style="resize: none">개인정보의 항목 및 수집방법
-블라블라블라블라블라블라블라블라블라블라블라블라                        
-블라블라블라블라블라블라블라블라블라블라블라블라
-블라블라블라블라블라블라블라블라블라블라블라블라.................
-                        </textarea>
-					<div class="radio">
-						<label> <input type="radio" id="memberInfoYn"
-							name="memberInfoYn" value="Y" checked> 동의합니다.
-						</label>
-					</div>
-					<div class="radio">
-						<label> <input type="radio" id="memberInfoYn"
-							name="memberInfoYn" value="N"> 동의하지 않습니다.
-						</label>
-					</div>
-				</div>
-			</div>
 			<div class="form-group" id="divId">
 				<label for="inputId" class="col-lg-2 control-label">아이디</label>
 				<div class="col-lg-10">
@@ -141,15 +97,7 @@
 						maxlength="15">
 				</div>
 			</div>
-
-			<div class="form-group" id="divNickname">
-				<label for="inputNickname" class="col-lg-2 control-label">별명</label>
-				<div class="col-lg-10">
-					<input type="text" class="form-control" id="nickname"
-						data-rule-required="true" placeholder="별명" maxlength="15">
-				</div>
-			</div>
-
+		
 			<div class="form-group" id="divEmail">
 				<label for="inputEmail" class="col-lg-2 control-label">이메일</label>
 				<div class="col-lg-10">
@@ -175,32 +123,7 @@
 					</select>
 				</div>
 			</div>
-			<div class="form-group">
-				<label for="inputEmailReceiveYn" class="col-lg-2 control-label">이메일
-					수신여부</label>
-				<div class="col-lg-10">
-					<label class="radio-inline"> <input type="radio"
-						id="emailReceiveYn" name="emailReceiveYn" value="Y" checked>
-						동의합니다.
-					</label> <label class="radio-inline"> <input type="radio"
-						id="emailReceiveYn" name="emailReceiveYn" value="N"> 동의하지
-						않습니다.
-					</label>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="inputPhoneNumber" class="col-lg-2 control-label">SMS
-					수신여부</label>
-				<div class="col-lg-10">
-					<label class="radio-inline"> <input type="radio"
-						id="smsReceiveYn" name="smsReceiveYn" value="Y" checked>
-						동의합니다.
-					</label> <label class="radio-inline"> <input type="radio"
-						id="smsReceiveYn" name="smsReceiveYn" value="N"> 동의하지
-						않습니다.
-					</label>
-				</div>
-			</div>
+			
 			<div class="form-group">
 				<div class="col-lg-offset-2 col-lg-10">
 					<button type="submit" class="btn btn-primary">Sign in</button>
